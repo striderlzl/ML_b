@@ -11,7 +11,7 @@ upload traffic violation possibly video, choose the model (yolo or tracking)you 
 ### Find violation
 ...
 
-#TODO
+# TODO
 - [x] upload video
 - [ ] connect to CarmaCam db
 - [ ] connect to ML model
