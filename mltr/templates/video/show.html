@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{%block content%}
+    <a href="{%url 'create' %}">upload new video</a>
+    {% for instance in object_list %}
+        <p>{{ instance.id}} -
+            <a href="{{instance.get_absolute_url}}">{{ instance.title }}</a> -
+            <a href="{%url 'video_update' instance.id %}">edit</a> -
+            <a href="{%url 'video_yolo' instance.id %}">yolo</a> -
+        </p>
+    {% endfor %}
+{%endblock%}

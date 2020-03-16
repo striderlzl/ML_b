@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content%}
+<h1>    {% if object.title != None and object.title != '' %}
+            {{object.title}}
+        {% else %}
+            No title
+        {% endif %}
+</h1>
+<p>
+    {% if object.description != None and object.description != '' %}
+        {{object.description}}
+    {% else %}
+        No Description
+    {% endif %}
+</p>
+<video width='320' height= '240' controls>
+<source src="{{ MEDIA_URL }}{{object.video}}" type='video/mp4'>
+Your browser does not support the video tag.
+</video>
+<button onclick="window.location.href = {%url 'video_list' %};">Back</button>
+{%endblock%}
