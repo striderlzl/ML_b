@@ -1,14 +1,14 @@
 # ML_b
 a website integrated with YOLO v3, kalman-filter and a couple of ML models to detect traffic violations.
-#Tehnique
+
+# Tehnique
 -Django
 -Tensorflow
-#How to use
 
-## Acquire data
+# How to use
+### Acquire data
 upload traffic violation possibly video, choose the model (yolo or tracking)you want to use and get the data json file.
-
-## Find violation
+### Find violation
 
 
 #TODO
