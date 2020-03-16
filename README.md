@@ -2,8 +2,8 @@
 a website integrated with YOLO v3, kalman-filter and a couple of ML models to detect traffic violations.
 
 # Tehnique
--Django
--Tensorflow
+- Django
+- Tensorflow
 
 # How to use
 ### Acquire data
@@ -12,7 +12,7 @@ upload traffic violation possibly video, choose the model (yolo or tracking)you 
 
 
 #TODO
--[x] upload video
--[] connect to CarmaCam db
--[] connect to ML model
+- [x] upload video
+- [] connect to CarmaCam db
+- [] connect to ML model
 ...
