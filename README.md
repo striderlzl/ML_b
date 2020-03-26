@@ -14,5 +14,6 @@ upload traffic violation possibly video, choose the model (yolo or tracking)you 
 # TODO
 - [x] upload video
 - [ ] connect to CarmaCam db
-- [ ] connect to ML model
+- [x] connect to ML model
+- [ ] add openalpr into backend
 ...
