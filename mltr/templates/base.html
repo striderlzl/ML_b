@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     {% load static %}
+
+    {% include 'material/includes/material_css.html' %}
+    {% include 'material/includes/material_js.html' %}
     <title>Home</title>
+<style>
+body 
+{
+  padding: 2%;
+}
+</style>
 </head>
+
 <body>
     <div class="container-1" >
       <div class="box-1">
-
-
          <p >
             <a href='{% url 'home'  %}'>
             <img id = 'logo' src = "{% static 'images/logo.png' %}" height= 75 width = 75 class = 'right' /></a>
