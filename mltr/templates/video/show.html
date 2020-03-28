@@ -1,12 +1,34 @@
 {% extends 'base.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/show.css' %}">
 
 {%block content%}
-    <a href="{%url 'create' %}">upload new video</a>
-    {% for instance in object_list %}
-        <p>{{ instance.id}} -
-            <a href="{{instance.get_absolute_url}}">{{ instance.title }}</a> -
-            <a href="{%url 'video_update' instance.id %}">edit</a> -
-            <a href="{%url 'video_yolo' instance.id %}">yolo</a> -
-        </p>
-    {% endfor %}
+
+	<h1>Videos</h1>
+    <table style="th,td: padding:2px">
+
+    	<tr>
+			<td colspan="4" style="text-align: right; padding-bottom: 4px; border: 0px solid black">
+			<button> <a href="{%url 'create' %}" style="text-decoration: none"> + Upload </a></button>
+			</td>
+		</tr>
+		
+		<tr>
+			<th> Video Id </th>
+			<th> Title</th>
+			<th> Edit </th>
+			<th> Object Detection and Tracking (YOLO) </th>
+		</tr>
+	    {% for instance in object_list %}
+	    	<tr>
+
+	    	<td>{{ instance.id}}</td>
+	    	<td><a href="{{instance.get_absolute_url}}">{{ instance.title }}</a></td>
+	        <td><a href="{%url 'video_update' instance.id %}">Edit</a></td>
+	        <td><a href="{%url 'video_yolo' instance.id %}">Yolo</a></td>
+	        </p>
+	        </tr>
+	    {% endfor %}
+    </table>
+
 {%endblock%}

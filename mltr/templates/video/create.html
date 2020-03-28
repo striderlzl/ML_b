@@ -1,9 +1,16 @@
 {% extends 'base.html' %}
+{% load material_form %}
 {% block content%}
+<h3> Upload Video </h3>
+<br>
+<div style="width: 70%">
 <form action='.' method="POST" enctype="multipart/form-data"> {% csrf_token %}
 
-    {{ form.as_p  }}
+    {% form form=form %}{% endform %}
     <input type='submit' value='Save' />
 </form>
+</div>
+
+<br> 
 <button onclick="window.location.href = {%url 'video_list' %};">Back</button>
 {%endblock%}

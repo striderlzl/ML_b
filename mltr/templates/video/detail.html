@@ -13,9 +13,14 @@
         No Description
     {% endif %}
 </p>
-<video width='320' height= '240' controls>
-<source src="{{ MEDIA_URL }}{{object.video}}" type='video/mp4'>
-Your browser does not support the video tag.
-</video>
+<div style="text-align: center">
+	<video style="width:80%; height: auto" controls>
+	<source src="{{ MEDIA_URL }}{{object.video}}" type='video/mp4'>
+	Your browser does not support the video tag.
+	</video>
+</div>
+<br><br> 
+
 <button onclick="window.location.href = {%url 'video_list' %};">Back</button>
+
 {%endblock%}
