@@ -7,7 +7,7 @@ a website integrated with YOLO v3, kalman-filter and a couple of ML models to de
 
 # How to use
 ### Home page - login
-![image](https://github.com/striderlzl/ML_b/tree/master/img/homepage.png)
+![alt text](img/homepage.png)
 
 ### Acquire data
 upload traffic violation possibly video, choose the model (yolo or tracking)you want to use and get the data json file.
