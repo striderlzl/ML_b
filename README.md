@@ -6,13 +6,28 @@ a website integrated with YOLO v3, kalman-filter and a couple of ML models to de
 - Tensorflow
 
 # How to use
-### Home page - login
-![alt text](img/homepage_login.png)
 
 ### Acquire data
 upload traffic violation possibly video, choose the model (yolo or tracking)you want to use and get the data json file.
+
 ### Find violation
-...
+- [x] speeding
+- [x] stop sign
+- [ ] traffic light
+- [ ] unsafe lane change
+
+# Step by Step
+### Home page - login
+![alt text](img/homepage_login.png)
+
+### find the video you want to process or upload your own traffic violation video
+![alt text](img/video_list.png)
+
+### Speeding
+![alt text](img/speeding.png)
+
+### stop_sign(work perfectly in video game GTA V)
+![alt text](img/stopsign_gta.png)
 
 # TODO
 - [x] upload video
