@@ -1,5 +1,5 @@
 # ML_b
-a website integrated with YOLO v3, kalman-filter and a couple of ML models to detect traffic violations.
+a website integrated with YOLO v3, kalman-filter, OpenALPR and a couple of ML models to detect traffic violations.
 only webiste source code
 # Tehnique
 - Django
@@ -10,7 +10,7 @@ only webiste source code
 ### Acquire data
 upload traffic violation possibly video, choose the model (yolo or tracking)you want to use and get the data json file.
 
-### Find violation
+### Calculate violation possibilities
 - [x] speeding
 - [x] stop sign
 - [ ] traffic light
@@ -20,11 +20,17 @@ upload traffic violation possibly video, choose the model (yolo or tracking)you 
 ### Home page - login
 ![alt text](img/homepage_login.png)
 
-### find the video you want to process or upload your own traffic violation video
-![alt text](img/video_list.png)
+### Select a possible traffic violation video
+![alt text](img/1 - speeding video.png)
 
-### Speeding
-![alt text](img/speeding.png)
+### Upload video
+![alt text](img/2 - speeding video uploading.png)
+
+### video is processing on the backend service and will take few minutes to calculate
+![alt text](img/3 - speeding video uploaded.png)
+
+### result!!!
+![alt text](img/4 - scores.png)
 
 ### stop_sign(work perfectly in video game GTA V)
 ![alt text](img/stopsign_gta.png)
@@ -33,5 +39,5 @@ upload traffic violation possibly video, choose the model (yolo or tracking)you 
 - [x] upload video
 - [ ] connect to CarmaCam db
 - [x] connect to ML model
-- [ ] add openalpr into backend
+- [x] add openalpr into backend
 ...
