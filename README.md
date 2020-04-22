@@ -21,16 +21,16 @@ upload traffic violation possibly video, choose the model (yolo or tracking)you 
 ![alt text](img/homepage_login.png)
 
 ### Select a possible traffic violation video
-![alt text](img/1 - speeding video.png)
+![alt text](img/1-speedingvideo.png)
 
 ### Upload video
-![alt text](img/2 - speeding video uploading.png)
+![alt text](img/2-speedingvideouploading.png)
 
 ### video is processing on the backend service and will take few minutes to calculate
-![alt text](img/3 - speeding video uploaded.png)
+![alt text](img/3-speedingvideouploaded.png)
 
 ### result!!!
-![alt text](img/4 - scores.png)
+![alt text](img/4-scores.png)
 
 ### stop_sign(work perfectly in video game GTA V)
 ![alt text](img/stopsign_gta.png)
