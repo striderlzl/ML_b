@@ -1,4 +1,4 @@
-# ML_b
+# CarmaCam scoring module platform
 a website integrated with YOLO v3, kalman-filter, OpenALPR and a couple of ML models to detect traffic violations.
 only webiste source code
 # Tehnique
