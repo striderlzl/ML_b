@@ -1,5 +1,5 @@
 # CarmaCam scoring module platform
-a website integrated with YOLO v3, kalman-filter, OpenALPR and a couple of ML models to detect traffic violations.
+a website, ML pipline integrated with YOLO v3, kalman-filter, OpenALPR and a couple of ML models to process video data, detect traffic violations.
 only webiste source code
 # Tehnique
 - Django
@@ -18,7 +18,7 @@ upload traffic violation possibly video, choose the model (yolo or tracking)you 
 
 # Step by Step
 ### Home page - login
-![alt text](img/homepage_login.png)
+![alt text](img/LOGIN.png)
 
 ### Select a possible traffic violation video
 ![alt text](img/1-speedingvideo.png)
@@ -30,10 +30,11 @@ upload traffic violation possibly video, choose the model (yolo or tracking)you 
 ![alt text](img/3-speedingvideouploaded.png)
 
 ### result!!!
-![alt text](img/4-scores.png)
+![alt text](img/DATA.png)
 
-### stop_sign(work perfectly in video game GTA V)
+### stop_sign(do work in video game GTA V and real life video)
 ![alt text](img/stopsign_gta.png)
+![alt text](img/speeding.png)
 
 # TODO
 - [x] upload video
