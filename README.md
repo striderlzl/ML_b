@@ -13,8 +13,8 @@ upload traffic violation possibly video, choose the model (yolo or tracking)you 
 ### Calculate violation possibilities
 - [x] speeding
 - [x] stop sign
-- [ ] traffic light
-- [ ] unsafe lane change
+- [x] traffic light
+- [x] unsafe lane change
 
 # Step by Step
 ### Home page - login
